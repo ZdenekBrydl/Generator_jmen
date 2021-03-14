@@ -29,7 +29,6 @@ Sub AutoOpen()
   Parametry.Show
   
   For I = 1 To Parametry.Jmen
-    Sleep 200
     Selection.TypeText NahodnaSlabika(Parametry.Rod.ListIndex, 0)
     If Parametry.Slabik.ListIndex > 0 Then Selection.TypeText NahodnaSlabika(Parametry.Rod.ListIndex, 1)
     If Parametry.Slabik.ListIndex > 1 Then Selection.TypeText NahodnaSlabika(Parametry.Rod.ListIndex, 2)
